@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Boitsholo Ramokhua | Full Stack Developer</title>
+        <link href="https://fonts.googleapis.com/css2?/family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <!--navigation-->
+        <nav id="navbar">
+            <div class="nav-container">
+                <a href="#" class="logo">BR</a>
+                <ul class="nav-links">
+                    <li><a href="#welcome-section">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="contact">Contact</a></li>
+                </ul>
+                <button class="menu-toggle">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+        </nav>
+
+        <!--welcome section-->
+        <section id="welcome-section">
+            <div class="welcome-container">
+                <div class="hero-content">
+                    <div class="profile-section">
+                        <img src="IMG-20250604-WA0008.jpg" alt="my photo" id="profile-img" width="150">
+                    </div>
+                    <div class="hero-text">
+                        <h1>Hello, I'm 
+                            <span class="highlight">Boitsholo Ramokhua</span>
+                        </h1>
+                        <h2>BSc Computing with Finance Final Year Student | Full Stack Developer</h2>
+                        <p>Specializing in frontend development with growing expertise in React, Node.js and morderm web technologies</p>
+                        <a href="#projects" class="cta-button">View my work 
+                            <i class="fas fa-arrow-down"></i>
+                        </a>
+                        <a href="#contact" class="cta-button secondary">Contact Me 
+                            <i class="fas fa-paper-plane"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--about section-->
+        <section id="about">
+            <div class="container">
+                <h2>About Me</h2>
+                <div class="about-content">
+                    <div class="about-text">
+                        <p>
+                            I am a driven and ambitious intermediate full stack web developer with a strong foundation
+                            in HTML, CSS JavaScript, PHP and API intehration. As an undergraduate student, I balance
+                            academics with skill-building, showcasing discipline and passion in tech.
+                        </p>
+                        <p>
+                            I have worked with GitHub, responsive design, and AI/weather APIs, proving my ability to create dynamic
+                            web applications. Eager to grow, I am diving into React and Node.js to expand my expertise.
+                        </p>
+                        <p>
+                            My proactive approach-seeking structured learning plans, certifications and bootcamps highlight my resourcefulness
+                            and commitment to excellence. With a project oriented mindset and hunger for knowledge, I plan to become a well-rounded
+                            developer. 
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--skills section-->
+        <section id="skills">
+            <div class="container">
+                <h2>My Skills</h2>
+                <div class="skills-grid">
+                    <div class="skill-category">
+                        <h3><i class="fas fa-star"></i>Strong</h3>
+                        <div class="skill-tags">
+                            <span class="skill-tag">HTML5</span>
+                            <span class="skill-tag">CSS3</span>
+                            <span class="skill-tag">JavaScript</span>
+                            <span class="skill-tag">PHP</span>
+                            <span class="skill-tag">API Integration</span>
+                            <span class="skill-tag">GitHub</span>
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <h3><i class="fas fa-rocket"></i>Learning</h3>
+                        <div class="skill-tags">
+                            <span class="skill-tag learning">React</span>
+                            <span class="skill-tag learning">Node.js</span>
+                            <span class="skill-tag learning">TypeScript</span>
+                            <span class="skill-tag learning">Tailwind CSS</span>
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <h3><i class="fas fa-server"></i>Backend</h3>
+                        <div class="skill-tags">
+                            <span class="skill-tag">Database Design</span>
+                            <span class="skill-tag">REST APIs</span>
+                            <span class="skill-tag">Authentication</span>
+                            <span class="skill-tag">System Architecture</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--projects section-->
+        <section id="projects">
+            <div class="container">
+                <h2>My Projects</h2>
+                <div class="projects-filter">
+                    <button class="filter-btn active" data-filter="all">All</button>
+                    <button class="filter-btn" data-filter="frontend">Frontend</button>
+                    <button class="filter-btn" data-filter="backend">Backend</button>
+                    <button class="filter-btn" data-filter="api">API Projects</button>
+                </div>
+            </div>
+
+            <div class="projects-grid">
+                <!--coinwise-->
+                <div class="project-tile" data-category="frontend">
+                    <div class="project-header">
+                        <h3>CoinWise</h3>
+                        <span class="project-badge">New</span>
+                    </div>
+                    <p>A modern budgeting application designed to help users trackt their finances
+                        and visualize spending patterns.
+                    </p>
+                    <div class="tech-stack">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                        <span>Charts.js</span>
+                    </div>
+                    <p><em>The project is also available with React, Tailwind CSS and JavaScript</em></p>
+                    <div class="project-links">
+                        <a href="https://coinwise.netlify.app" target="_blank" class="project-link">
+                            <i class="fas fa-external-link-alt"></i> Live Demo
+                        </a>
+                        <a href="https://github.com/ramokhua/CoinWise" target="_blank" class="project-link">
+                            <i class="fas fa-github"></i> Code
+                        </a>
+                    </div>
+                </div>
+
+                <!--mindmoor-->
+                <div class="project-tile" data-category="frontend api">
+                    <div class="project-header">
+                        <h3>MindMoor</h3>
+                        <span class="project-badge">AI</span>
+                    </div>
+                    <p>A menntal wellness app featuring AI companion Moira for emotional support and reflection in a 
+                        judgement-free environment. It allows journalling, moood tracking and some exercises.
+                    </p>
+                    <div class="tech-stack">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                        <span>Charts.js</span>
+                        <span>AI Integration</span>
+                        <span>Responsive Design</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://mindmoor.netlify.app" target="_blank" class="project-link">
+                            <i class="fas fa-external-link-alt"></i>Live Demo
+                        </a>
+                        <a href="https://github.com/ramokhua/MindMoor" target="_blank" class="project-link">
+                            <i class="fas fa-github"></i> Code
+                        </a>
+                    </div>
+                </div>
+
+                <!--weather app-->
+                <div class="project-tile" data-category="frontend api">
+                    <div class="project-header">
+                        <h3>Weather App</h3>
+                        <span class="project-badge">API</span>
+                    </div>
+                    <p>A weather application that delivers real-time weather information with a clean, user friendly interface.</p>
+                    <div class="tech-stack">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                        <span>Weather API</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://vanilla-weather-forecast.netlify.app" target="_blank" class="project-link">
+                            <i class="fas fa-external-link-alt"></i>Live Demo
+                        </a>
+                        <a href="https://github.com/ramokhua/VanillaWeather" target="_blank" class="project-link">
+                            <i class="fas fa-github"></i> Code
+                        </a>
+                    </div>
+                </div>
+
+                <!--poem generator-->
+                <div class="project-tile" data-category="frontend api">
+                    <div class="project-header">
+                        <h3>Poem Generator</h3>
+                        <span class="project-badge">API</span>
+                    </div>
+                    <p>A creative tool that generates poetry using algorithmic techniques and AI for creative inspiration.</p>
+                    <div class="tech-stack">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                        <span>AI API</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://ai-poem-generator-boitsholo.netlify.app" target="_blank" class="project-link">
+                            <i class="fas fa-external-link-alt"></i>Live Demo
+                        </a>
+                        <a href="https://github.com/ramokhua/PoemGenerator" target="_blank" class="project-link">
+                            <i class="fas fa-github"></i> Code
+                        </a>
+                    </div>
+                </div>
+
+                <!--documentation-->
+                <div class="project-tile" data-category="frontend">
+                    <h3>Technical Documentation</h3>
+                    <p>
+                        Contains a brief introduction, variables and data types.
+                        Also contains functions as well as sample code usage.
+                    </p>
+                    <div class="tech-stack">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                    </div>
+                    <a href="https://codepen.io/Ramokhua-Boitsholo/pen/QwwzoZr" target="_blank" class="project-link">View on CodePen</a>
+                </div>
+
+                <!--landing page-->
+                <div class="project-tile" data-category="frontend">
+                    <h3>Product Landing Page</h3>
+                    <p>
+                        Quantum computing product landing page with features, demo, pricing, and contact form.
+                    </p>
+                    <div class="tech-stack">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                    </div>
+                    <a href="https://codepen.io/Ramokhua-Boitsholo/pen/emmbXKx" target="_blank" class="project-link">
+                        <i class="fas fa-github"></i> View on CodePen
+                    </a>
+                </div>
+
+                <!--survey form-->
+                <div class="project-tile" data-category="frontend">
+                    <h3>Customer Survey form</h3>
+                    <p>
+                        Customer feedback survey form with questions, ratings, and suggestions. 
+                    </p>
+                    <div class="tech-stack">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                    </div>
+                    <a href="https://codepen.io/Ramokhua-Boitsholo/pen/yyyGwxR" target="_blank" class="project-link">
+                        <i class="fas fa-github"></i> View on CodePen
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!--contact section-->
+        <section id="contact">
+            <div class="container">
+                <h2>Lets Connect</h2>
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <p><i class="fas fa-envelope"></i> ramokhuaboitsholo@gmail.com</p>
+                        <p><i class="fas fa-graduation-cap"></i> BSc Computing With Finance Student</p>
+                        <div class="social-links">
+                            <a href="https://github.com/ramokhua" target="_blank" id="profile-link">
+                                <i class="fas fa-github"></i> GitHub
+                            </a>
+                            <a href="https://www.linkedin.com/ramokhua-boutsholo-39b878232" target="_blank">
+                                <i class="fas fa-linkedin"></i> LinkedIn
+                            </a>
+                            <a href="https://app.netlify.com/teams/ramokhua/sites" target="_blank">
+                                <i class="fas fa-cloud"></i> Netlify
+                            </a>
+                        </div>
+                        <form class="contact-form" id="contactForm">
+                            <input type="text" placeholder="Name" required>
+                            <input type="email" placeholder="Email" required>
+                            <textarea placeholder="Your Message" rows="5" required></textarea>
+                            <button type="submit" class="cta-button">Send Message <i class="fas fa-paper-plane"></i></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <div class="container">
+                <p> &copy; 2025 Boitsholo Ramokhua. All Rights Reserved.</p>
+            </div>
+        </footer>
+    </body>
+</html>
