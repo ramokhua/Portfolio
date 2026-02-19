@@ -4,7 +4,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Boitsholo Ramokhua | Full Stack Developer</title>
-        <link href="https://fonts.googleapis.com/css2?/family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
         <link rel="stylesheet" href="styles.css">
     </head>
@@ -13,14 +13,14 @@
         <nav id="navbar">
             <div class="nav-container">
                 <a href="#" class="logo">BR</a>
-                <ul class="nav-links">
+                <ul class="nav-links" id="navLinks">
                     <li><a href="#welcome-section">Home</a></li>
                     <li><a href="#about">About</a></li>
                     <li><a href="#skills">Skills</a></li>
                     <li><a href="#projects">Projects</a></li>
-                    <li><a href="contact">Contact</a></li>
+                    <li><a href="#contact">Contact</a></li>
                 </ul>
-                <button class="menu-toggle">
+                <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation">
                     <i class="fas fa-bars"></i>
                 </button>
             </div>
@@ -38,7 +38,7 @@
                             <span class="highlight">Boitsholo Ramokhua</span>
                         </h1>
                         <h2>BSc Computing with Finance Final Year Student | Full Stack Developer</h2>
-                        <p>Specializing in frontend development with growing expertise in React, Node.js and morderm web technologies</p>
+                        <p>Specializing in frontend development with growing expertise in React, Node.js and modern web technologies</p>
                         <a href="#projects" class="cta-button">View my work 
                             <i class="fas fa-arrow-down"></i>
                         </a>
@@ -57,18 +57,20 @@
                 <div class="about-content">
                     <div class="about-text">
                         <p>
-                            I am a driven and ambitious intermediate full stack web developer with a strong foundation
-                            in HTML, CSS JavaScript, PHP and API intehration. As an undergraduate student, I balance
-                            academics with skill-building, showcasing discipline and passion in tech.
+                            I am a BSc Computing with Finance student at the University of Botswana and a driven full stack developer 
+                            with a strong foundation in HTML, CSS, JavaScript, PHP and API integration. As a prominent tech enthusiast 
+                            based in Botswana, I balance academics with skill-building, showcasing discipline and passion for technology.
                         </p>
                         <p>
-                            I have worked with GitHub, responsive design, and AI/weather APIs, proving my ability to create dynamic
-                            web applications. Eager to grow, I am diving into React and Node.js to expand my expertise.
+                            I specialise in Full Stack Development with a growing focus on AI integration and Data Science. I have 
+                            professional experience working with Mascom Wireless and am ranked among the most active GitHub users in 
+                            Botswana, reflecting my deep engagement in both private and public coding projects.
                         </p>
                         <p>
-                            My proactive approach-seeking structured learning plans, certifications and bootcamps highlight my resourcefulness
-                            and commitment to excellence. With a project oriented mindset and hunger for knowledge, I plan to become a well-rounded
-                            developer. 
+                            I have worked with responsive design, AI and weather APIs, proving my ability to create dynamic web applications. 
+                            My proactive approach — seeking structured learning plans, certifications and bootcamps — highlights my 
+                            resourcefulness and commitment to excellence. With a project-oriented mindset and hunger for knowledge, 
+                            I am building towards becoming a well-rounded, industry-ready developer.
                         </p>
                     </div>
                 </div>
@@ -81,7 +83,7 @@
                 <h2>My Skills</h2>
                 <div class="skills-grid">
                     <div class="skill-category">
-                        <h3><i class="fas fa-star"></i>Strong</h3>
+                        <h3><i class="fas fa-star"></i> Strong</h3>
                         <div class="skill-tags">
                             <span class="skill-tag">HTML5</span>
                             <span class="skill-tag">CSS3</span>
@@ -92,7 +94,7 @@
                         </div>
                     </div>
                     <div class="skill-category">
-                        <h3><i class="fas fa-rocket"></i>Learning</h3>
+                        <h3><i class="fas fa-rocket"></i> Learning</h3>
                         <div class="skill-tags">
                             <span class="skill-tag learning">React</span>
                             <span class="skill-tag learning">Node.js</span>
@@ -101,7 +103,7 @@
                         </div>
                     </div>
                     <div class="skill-category">
-                        <h3><i class="fas fa-server"></i>Backend</h3>
+                        <h3><i class="fas fa-server"></i> Backend</h3>
                         <div class="skill-tags">
                             <span class="skill-tag">Database Design</span>
                             <span class="skill-tag">REST APIs</span>
@@ -132,9 +134,7 @@
                         <h3>CoinWise</h3>
                         <span class="project-badge">New</span>
                     </div>
-                    <p>A modern budgeting application designed to help users trackt their finances
-                        and visualize spending patterns.
-                    </p>
+                    <p>A modern budgeting application designed to help users track their finances and visualize spending patterns.</p>
                     <div class="tech-stack">
                         <span>HTML</span>
                         <span>CSS</span>
@@ -147,7 +147,7 @@
                             <i class="fas fa-external-link-alt"></i> Live Demo
                         </a>
                         <a href="https://github.com/ramokhua/CoinWise" target="_blank" class="project-link">
-                            <i class="fas fa-github"></i> Code
+                            <i class="fab fa-github"></i> Code
                         </a>
                     </div>
                 </div>
@@ -158,8 +158,8 @@
                         <h3>MindMoor</h3>
                         <span class="project-badge">AI</span>
                     </div>
-                    <p>A menntal wellness app featuring AI companion Moira for emotional support and reflection in a 
-                        judgement-free environment. It allows journalling, moood tracking and some exercises.
+                    <p>A mental wellness app featuring AI companion Moira for emotional support and reflection in a 
+                        judgement-free environment. It allows journalling, mood tracking and some exercises.
                     </p>
                     <div class="tech-stack">
                         <span>HTML</span>
@@ -171,10 +171,10 @@
                     </div>
                     <div class="project-links">
                         <a href="https://mindmoor.netlify.app" target="_blank" class="project-link">
-                            <i class="fas fa-external-link-alt"></i>Live Demo
+                            <i class="fas fa-external-link-alt"></i> Live Demo
                         </a>
                         <a href="https://github.com/ramokhua/MindMoor" target="_blank" class="project-link">
-                            <i class="fas fa-github"></i> Code
+                            <i class="fab fa-github"></i> Code
                         </a>
                     </div>
                 </div>
@@ -194,10 +194,10 @@
                     </div>
                     <div class="project-links">
                         <a href="https://vanillaweather-forecast.netlify.app" target="_blank" class="project-link">
-                            <i class="fas fa-external-link-alt"></i>Live Demo
+                            <i class="fas fa-external-link-alt"></i> Live Demo
                         </a>
                         <a href="https://github.com/ramokhua/VanillaWeather" target="_blank" class="project-link">
-                            <i class="fas fa-github"></i> Code
+                            <i class="fab fa-github"></i> Code
                         </a>
                     </div>
                 </div>
@@ -217,10 +217,10 @@
                     </div>
                     <div class="project-links">
                         <a href="https://ai-poem-generator-boitsholo.netlify.app" target="_blank" class="project-link">
-                            <i class="fas fa-external-link-alt"></i>Live Demo
+                            <i class="fas fa-external-link-alt"></i> Live Demo
                         </a>
                         <a href="https://github.com/ramokhua/PoemGenerator" target="_blank" class="project-link">
-                            <i class="fas fa-github"></i> Code
+                            <i class="fab fa-github"></i> Code
                         </a>
                     </div>
                 </div>
@@ -228,48 +228,43 @@
                 <!--documentation-->
                 <div class="project-tile" data-category="frontend">
                     <h3>Technical Documentation</h3>
-                    <p>
-                        Contains a brief introduction, variables and data types.
-                        Also contains functions as well as sample code usage.
-                    </p>
+                    <p>Contains a brief introduction, variables and data types. Also contains functions as well as sample code usage.</p>
                     <div class="tech-stack">
                         <span>HTML</span>
                         <span>CSS</span>
                         <span>JavaScript</span>
                     </div>
-                    <a href="https://codepen.io/Ramokhua-Boitsholo/pen/QwwzoZr" target="_blank" class="project-link">View on CodePen</a>
+                    <div class="project-links">
+                        <a href="https://codepen.io/Ramokhua-Boitsholo/pen/QwwzoZr" target="_blank" class="project-link">View on CodePen</a>
+                    </div>
                 </div>
 
                 <!--landing page-->
                 <div class="project-tile" data-category="frontend">
                     <h3>Product Landing Page</h3>
-                    <p>
-                        Quantum computing product landing page with features, demo, pricing, and contact form.
-                    </p>
+                    <p>Quantum computing product landing page with features, demo, pricing, and contact form.</p>
                     <div class="tech-stack">
                         <span>HTML</span>
                         <span>CSS</span>
                         <span>JavaScript</span>
                     </div>
-                    <a href="https://codepen.io/Ramokhua-Boitsholo/pen/emmbXKx" target="_blank" class="project-link">
-                        <i class="fas fa-github"></i> View on CodePen
-                    </a>
+                    <div class="project-links">
+                        <a href="https://codepen.io/Ramokhua-Boitsholo/pen/emmbXKx" target="_blank" class="project-link">View on CodePen</a>
+                    </div>
                 </div>
 
                 <!--survey form-->
                 <div class="project-tile" data-category="frontend">
-                    <h3>Customer Survey form</h3>
-                    <p>
-                        Customer feedback survey form with questions, ratings, and suggestions. 
-                    </p>
+                    <h3>Customer Survey Form</h3>
+                    <p>Customer feedback survey form with questions, ratings, and suggestions.</p>
                     <div class="tech-stack">
                         <span>HTML</span>
                         <span>CSS</span>
                         <span>JavaScript</span>
                     </div>
-                    <a href="https://codepen.io/Ramokhua-Boitsholo/pen/RNNEdYo" target="_blank" class="project-link">
-                        <i class="fas fa-github"></i> View on CodePen
-                    </a>
+                    <div class="project-links">
+                        <a href="https://codepen.io/Ramokhua-Boitsholo/pen/RNNEdYo" target="_blank" class="project-link">View on CodePen</a>
+                    </div>
                 </div>
             </div>
         </section>
@@ -277,22 +272,23 @@
         <!--contact section-->
         <section id="contact">
             <div class="container">
-                <h2>Lets Connect</h2>
+                <h2>Let's Connect</h2>
                 <div class="contact-content">
                     <div class="contact-info">
-                        <p><i class="fas fa-envelope"></i> <a href="ramokhuaboitsholo@gmail.com" class="__cf_email__" data-cfemail="9ceefdf1f3f7f4e9fdfef3f5e8eff4f3f0f3dcfbf1fdf5f0b2fff3f1"></a></p>
                         <p><i class="fas fa-graduation-cap"></i> BSc Computing With Finance Student</p>
                         <div class="social-links">
                             <a href="https://github.com/ramokhua" target="_blank" id="profile-link">
-                                <i class="fas fa-github"></i> GitHub
+                                <i class="fab fa-github"></i> GitHub
                             </a>
                             <a href="https://www.linkedin.com/in/ramokhua-boitsholo-39b878232" target="_blank">
-                                <i class="fas fa-linkedin"></i> LinkedIn
+                                <i class="fab fa-linkedin"></i> LinkedIn
                             </a>
                             <a href="https://app.netlify.com/teams/ramokhua/sites" target="_blank">
                                 <i class="fas fa-cloud"></i> Netlify
                             </a>
                         </div>
+                    </div>
+                    <div>
                         <form class="contact-form" id="contactForm">
                             <input type="text" placeholder="Name" required>
                             <input type="email" placeholder="Email" required>
@@ -306,9 +302,105 @@
 
         <footer>
             <div class="container">
-                <p> &copy; 2025 Boitsholo Ramokhua. All Rights Reserved.</p>
+                <p>&copy; 2025 Boitsholo Ramokhua. All rights reserved.</p>
+                <p>Built with passion from Botswana &#127463;&#127484;</p>
             </div>
         </footer>
-    </body>
 
+        <script>
+            // Mobile Navigation Toggle
+            const menuToggle = document.getElementById('menuToggle');
+            const navLinks = document.getElementById('navLinks');
+
+            menuToggle.addEventListener('click', function () {
+                navLinks.classList.toggle('active');
+                const icon = this.querySelector('i');
+                icon.classList.toggle('fa-bars');
+                icon.classList.toggle('fa-times');
+            });
+
+            // Close mobile menu when clicking any nav link
+            document.querySelectorAll('#navLinks a').forEach(link => {
+                link.addEventListener('click', () => {
+                    navLinks.classList.remove('active');
+                    const icon = menuToggle.querySelector('i');
+                    icon.classList.add('fa-bars');
+                    icon.classList.remove('fa-times');
+                });
+            });
+
+            // Navbar scroll effect
+            window.addEventListener('scroll', function () {
+                const navbar = document.getElementById('navbar');
+                if (window.scrollY > 100) {
+                    navbar.classList.add('scrolled');
+                } else {
+                    navbar.classList.remove('scrolled');
+                }
+            });
+
+            // Project filtering
+            document.querySelectorAll('.filter-btn').forEach(button => {
+                button.addEventListener('click', function () {
+                    document.querySelectorAll('.filter-btn').forEach(btn => btn.classList.remove('active'));
+                    this.classList.add('active');
+                    const filter = this.getAttribute('data-filter');
+                    document.querySelectorAll('.project-tile').forEach(project => {
+                        const categories = project.getAttribute('data-category');
+                        if (filter === 'all' || (categories && categories.includes(filter))) {
+                            project.style.display = 'flex';
+                        } else {
+                            project.style.display = 'none';
+                        }
+                    });
+                });
+            });
+
+            // Smooth scrolling for anchor links
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function (e) {
+                    e.preventDefault();
+                    const targetId = this.getAttribute('href');
+                    if (targetId === '#') return;
+                    const targetElement = document.querySelector(targetId);
+                    if (targetElement) {
+                        window.scrollTo({
+                            top: targetElement.offsetTop - 80,
+                            behavior: 'smooth'
+                        });
+                    }
+                });
+            });
+
+            // Form submission
+            document.getElementById('contactForm').addEventListener('submit', function (e) {
+                e.preventDefault();
+                const formData = {
+                    name: this.querySelector('input[type="text"]').value,
+                    email: this.querySelector('input[type="email"]').value,
+                    message: this.querySelector('textarea').value
+                };
+                console.log('Contact form submitted:', formData);
+                alert('Thank you for your message, Boitsholo will get back to you soon!');
+                this.reset();
+            });
+
+            // Intersection Observer for scroll animations
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.style.opacity = '1';
+                        entry.target.style.transform = 'translateY(0)';
+                    }
+                });
+            }, { threshold: 0.1 });
+
+            document.querySelectorAll('.project-tile').forEach(tile => {
+                tile.style.opacity = '0';
+                tile.style.transform = 'translateY(20px)';
+                tile.style.transition = 'opacity 0.5s, transform 0.5s';
+                observer.observe(tile);
+            });
+        </script>
+    </body>
 </html>
